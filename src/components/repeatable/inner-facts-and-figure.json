@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_repeatable_inner_facts_and_figures",
+  "info": {
+    "displayName": "Inner fact & figure",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fact": {
+      "type": "string"
+    },
+    "figure": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

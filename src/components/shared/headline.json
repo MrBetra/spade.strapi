@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_headlines",
+  "info": {
+    "displayName": "Headline",
+    "icon": "italic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta"
+    },
+    "titleTag": {
+      "type": "enumeration",
+      "enum": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "default": "H2"
+    }
+  }
+}

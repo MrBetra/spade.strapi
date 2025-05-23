@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_text_images",
+  "info": {
+    "displayName": "Text-image",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "displayName": "Inner text-image",
+      "type": "component",
+      "repeatable": false,
+      "component": "repeatable.inner-text-image"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_fact_and_figures",
+  "info": {
+    "displayName": "Fact & Figure",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "displayName": "Inner facts & figure",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeatable.inner-facts-and-figure"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_columns",
+  "info": {
+    "displayName": "Columns",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "integer",
+      "default": 3,
+      "max": 6,
+      "min": 1
+    },
+    "content": {
+      "displayName": "Inner columns",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeatable.inner-columns"
+    }
+  }
+}
